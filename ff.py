@@ -128,7 +128,7 @@ def switch(mode, pin):
     if Temp > 0:
         Temp = Temp * 9/5 +32
 
-    if pin == 18:
+    if pin == cooler:
        sqlmode = "cool"
     else:
        sqlmode = "humid"
