@@ -6,10 +6,10 @@ After making several batches of tasty meat snacks, I was curious to find out how
 
 Enter the Frankenfridge Controller - it is a Raspberry Pi 3 with the following hardware:
 
-QTY		Description
- 1 		Real Time Clock (model DS1307)
- 2 		PowerTail II power controllers (model 80135 or 80136 - Normally Closed or NC version)
- 1 		AOSong AM2302 temperature and humidity sensor
+QTY   Description
+ 1    Real Time Clock (model DS1307)
+ 2    PowerTail II power controllers (model 80135 or 80136 - Normally Closed or NC version)
+ 1    AOSong AM2302 temperature and humidity sensor
 
 The AM2302 is connected to the Raspberry Pi via pins 1,5,11 (3v3, GPIO3, GPIO17)
 
