@@ -61,13 +61,13 @@ CREATE TABLE `temperatures` (
   PRIMARY KEY (`id`)
 );
 
-You can now run the frankenfridge.pl script from the command line:
+You can now run the frankenfridge script from the command line:
 
-./frankenfridge -t XX -hu YY
+./ff -t XX -hu YY
 
 Where XX is the warmest (maximum) temperature that you want in the curing cabinet; while YY is the lowest (minimum) humidity percentage you want in the curing cabinet.
 
-To set the curing temperature to 65ºF with 80% humidity: ./frankenfridge -t 65 -hu 80
+To set the curing temperature to 65ºF with 80% humidity: ./ff -t 65 -hu 80
 
 If the curing chamber temperature drops below 65ºF, the PowerTail circuit will power up the fridge and let it run for 1 minute.  If after that minute, the temperature is still not under your minimum temperature, it will continue to run in 1 minute intervals until the temperature is under your maximum temperature.
 
