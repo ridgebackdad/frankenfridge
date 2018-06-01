@@ -43,15 +43,6 @@ CREATE TABLE `actions` (
   PRIMARY KEY (`id`)
 );
   
-CREATE TABLE `controls` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `entrytime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `temp` tinyint(4) DEFAULT NULL,
-  `humid` tinyint(4) DEFAULT NULL,
-  `heat` tinyint(4) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-);
-
 CREATE TABLE `temperatures` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `entrytime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
