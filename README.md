@@ -15,7 +15,7 @@ The AM2302 is connected to the Raspberry Pi via pins 1,5,11 (3v3, GPIO3, GPIO17)
 
 The PowerSwitch Tail II used for cooling is connected to pins 12,14 (CPIO18,Ground)
 
-The PowerSwitch Tail II used for humidity is connected to pins 16,20 (CPIO18,Ground)
+The PowerSwitch Tail II used for humidity is connected to pins 16,20 (CPIO23,Ground)
 
 
 Prior to running the script, you will need to install the following:
