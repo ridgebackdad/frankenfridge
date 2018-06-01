@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# SalamiPi
+# FrankenFridge
 #
 # Author: Rick Highness
 # Version: 2.0
@@ -109,7 +109,7 @@ def mysql_query(sql):
 
 
 def writelog(entry):
-  text_file = open("salamipi.log", "a")
+  text_file = open("fridge.log", "a")
   text_file.write(entry)
   text_file.close()
   return
